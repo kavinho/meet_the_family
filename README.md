@@ -20,7 +20,7 @@ Given that, I have tested this project on OSX, here are the requirements:
 ## SETUP
 The following will install virtual-env called env, install required packages and, runs tests:
 ```bash
-./srtup.sh
+./setup.sh
  ```
 
  ## RUN
