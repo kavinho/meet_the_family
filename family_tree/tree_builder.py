@@ -19,7 +19,6 @@ class TreeBuilder(object):
             self.king.set_spouse(self.queen) 
 
     def set_spouce(self, man, woman):
-        """ node, node"""
         man.set_spouse(woman)
 
     def create_node(self, name, gender = models.Gender.Male):
