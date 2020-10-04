@@ -9,9 +9,9 @@ in the order in which they are added to the family tree
  You should be able to add a child to any family in the tree through the mother
 
 ## Assumptions:
-  - Names are unique
+Names are unique
 ## TODOS:
-    - Complete  unit tests: I didnt not go through testing all components, and negative bad data test, it would hae taken too much time.
+Complete unit tests: Did some test to show the familiarity with testing, and mocking, did not implement comprehensive tests, due to time limits.
 
 ## Prerequisites:
 Given that, I have tested this project on OSX, here are the requirements:
@@ -26,6 +26,6 @@ The following will install virtual-env called env, install required packages and
  ## RUN
  form MeetTheFamilyFolder, call:
  ```bash
- source venv/bin/activate
+ source env/bin/activate
  python main.py <test_file_name>
  ```
