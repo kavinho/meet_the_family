@@ -2,7 +2,7 @@ from family_tree import models
 
 class RelationshipExplorer(object):
     """
-        Discovers relationships between people
+        Explores relationships between people
     """
 
     def __init__(self, tree_builder):
@@ -23,6 +23,7 @@ class RelationshipExplorer(object):
     def explore(self, name, relationship_name):
         """
         gets the people matching the relationship_name relative to "name"
+        the term subject seen in most of methods mean the person of interest.
         """
         node = self.builder.get_node(name)
         if not node:

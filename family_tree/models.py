@@ -111,7 +111,7 @@ class Node(object):
 
 class Edge(object):
     """
-    Represents actual basic relationship between to people.
+    Represents an basic relationship between two people.
     """
 
     def __init__(self, edge_type, start_node=None, end_node=None):

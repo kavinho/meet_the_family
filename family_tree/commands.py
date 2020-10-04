@@ -4,12 +4,18 @@ from .models import Gender, AddChildException, PersonNotFoundException
 
 
 class Command(object):
+    """
+        Represent a class matching incoming commands to build or analyse family tree.
+    """
     def __init__(self, args):
         self.args = args
     def execute(self):
         pass
 
 class BuilderCommand(Command):
+    """
+        Type of command that adss a node(person) and/or edge(relationship) to family tree
+    """
     def __init__(self, tree_builder, args):
         super().__init__( args)
         self.tree_builder = tree_builder
@@ -53,6 +59,9 @@ class SetSpouseCommnad(BuilderCommand):
         pass          
 
 class GetRelationshipCommand(Command):
+    """
+        Discovers a people matching a relationship, given a persons name
+    """
     def __init__(self, rel_explorer, args):
         super().__init__(args)
         self.relationship_explorer = rel_explorer
@@ -73,6 +82,11 @@ class GetRelationshipCommand(Command):
 
     
 class CommandsManager(object):
+    """
+        A central place for commands to be picked and excuted.
+        Given we have input coming from text files, the command part of the 
+        file must match the keys in the text_to_command map.
+    """
 
     def __init__(self, tree_builder, relations_explorer):
         self.text_to_command = {
