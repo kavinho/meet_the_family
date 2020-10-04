@@ -1,0 +1,29 @@
+ADD_CHILD Margret Bill Male
+ADD_CHILD Margret Charlie Male
+ADD_CHILD Margret Percy Male
+ADD_CHILD Margret Ronald Male
+ADD_CHILD Margret Ginerva Female
+ADD_SPOUSE Bill Flora
+ADD_SPOUSE Percy Audrey
+ADD_SPOUSE Ronald Helen
+ADD_SPOUSE Ginerva Harry
+ADD_CHILD Flora Victoire Female
+ADD_CHILD Flora Dominique Female
+ADD_CHILD Flora Louis Male
+ADD_CHILD Audrey Molly Female
+ADD_CHILD Audrey Lucy Female
+ADD_CHILD Helen Rose Female
+ADD_CHILD Helen Hugo Male
+ADD_CHILD Ginerva James Male
+ADD_CHILD Ginerva Albus Male
+ADD_CHILD Ginerva Lily Female
+ADD_SPOUSE Victoire Ted
+ADD_SPOUSE Rose Malfoy
+ADD_SPOUSE James Darcy
+ADD_SPOUSE Albus Alice
+ADD_CHILD Victoire Remus Male
+ADD_CHILD Rose Draco Male
+ADD_CHILD Rose Aster Female
+ADD_CHILD Darcy William Male
+ADD_CHILD Alice Ron Male
+ADD_CHILD Alice Ginny Female

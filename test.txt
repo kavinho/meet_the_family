@@ -1,0 +1,2 @@
+ADD_CHILD Luna lola Female
+GET_RELATIONSHIP Luna Maternal-Aunt
