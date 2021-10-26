@@ -24,7 +24,7 @@ The following will install virtual-env called env, install required packages and
  ```
 
  ## RUN
- form MeetTheFamilyFolder, call:
+ from MeetTheFamilyFolder folder, call:
  ```bash
  source env/bin/activate
  python main.py <test_file_name>
